@@ -139,5 +139,9 @@ request.getParameter("");
 如果小的话可以request、session、page、application来传递
 具体可以借鉴上面几位仁兄的建议
 
+[Servlet与JSP间的两种传值情况](http://www.jb51.net/article/32622.htm)
+
+[request.setAttribute和request.getSession().setAttribute用起来有什么区别](http://wenda.haosou.com/q/1369210058067119?src=110)
+
 
 

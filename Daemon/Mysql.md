@@ -1,10 +1,34 @@
 Mysql
 ======
+查看安装的mariadb包
+rpm -qa|grep mariadb
+
+yum remove mariadb mariadb-server
+yum install mariadb mariadb-server
+
+/var/lib/mysql
+
+设置root密码(为1)
+mysqladmin -u root -p password 1
+
+首先配置允许访问的用户，采用授权的方式给用户权限
+
+    GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'IDENTIFIED BY '123456' WITH GRANT OPTION;
+ 说明：root是登陆数据库的用户，123456是登陆数据库的密码，*就是意味着任何来源任何主机反正就是权限很大的样子。
+最后配置好权限之后不应该忘记刷新使之生效
+
+    flush privileges;
+ 再次访问就可以了吧。
 
 本项目数据库将使用Mysql。
 在CentOS7中 Mysql升级为MariaDB。
 
 可以参考网上的[资料](http://www.cnblogs.com/zhangzhu/archive/2013/07/04/3172486.html)，很全很详细。
+centOS7中用mariadb代替了mysql，启动、重启服务命令如下：
+
+    systemctl start mariadb
+    systemctl restart mariadb
+    systemctl enable mariadb开机启动
 
     ```
     查看Mysql版本
@@ -102,3 +126,7 @@ Tomcat[数据库连接池](http://baike.baidu.com/link?url=qGzAlxhyEKKfvibRdC1Yn
 
 JSTL和EL表达式需要：
 standard.jar和jstl.jar的[下载地址](http://blog.sina.com.cn/s/blog_904d1154010108jj.html)
+
+mysql 用户管理和[权限管理](http://www.cnblogs.com/fslnet/p/3143344.html)
+
+
