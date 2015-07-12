@@ -63,6 +63,8 @@ JavaBeans）来执行应用程序所要求的更为复杂的处理，但是这�
 
 JSP操作数据库
 
+[JSP文件最好放在WEB-INF文件夹下](http://blog.csdn.net/saygoodbyetoyou/article/details/9944773)
+
 ## JavaBean
 JavaBeand的基础知识可以通过阅读[百度百科](http://baike.baidu.com/link?url=Etjjv45zFmgH4zZhW4KJny2-6_v_at7-Nq75w_g7B5wbvt2Wh3ZZP1-Fi5SK4_w96_hYhKcbr20KZ7xcGSUnvK)获得
 。
@@ -125,15 +127,20 @@ windows->Preferences->General->Appearance->Colors and Fonts->Basic->Text Font
 Myeclipse 2015 新建servlet时不需要更新web.xml。
 
 
+## JSP与Servlet间互相传值
+[JSP间、JSP与Servlet间传值](http://blog.csdn.net/ssy_shandong/article/details/9328985)
 
+### jsp向servlet传值
 
-jsp向servlet传递参数
+    <form action="forward" method="post">
+
 jsp中使用request.setAttribute(name, object)保存，
-servlet中使用request.getAttribute(name)取
+servlet中使用request.getAttribute(name)提取
 
 获取表单数据
 request.getParameter("");
 
+### servlet向jsp传值
 [servlet怎么设置jsp变量](http://zhidao.baidu.com/link?url=XPk_7owrSl3X_dY4Opi_1S7uHTwR8ch3IIlFGXxunaKJHqQ8Ncnktzpq8zIF_A7V8M6YUSIQU9tu301Wf3h-g_)
 如果数据量大的话可以通过bean来实现
 如果小的话可以request、session、page、application来传递
@@ -143,5 +150,28 @@ request.getParameter("");
 
 [request.setAttribute和request.getSession().setAttribute用起来有什么区别](http://wenda.haosou.com/q/1369210058067119?src=110)
 
+分清楚以下对象的作用域：
+servletContext
+session
+request
+page
+搞清以后一切都很明朗。
 
+### session
+request.setAttribute的作用域只是当前的请求，很多情况会消失
+
+
+
+简单说来是识别用户并保持用户信息
+
+不能使用session会话可能的原因可分几方面
+如果是服务端不能用，例如PHP有的时候不能用，可能是Session的存储位置设置有问题或是没有开启session支持
+如果是asp或.net不能用(IIS6) 有可能是应用程序池回收过于频繁
+
+如果访问的用户有的能用，有的不能用那就是客户端浏览器禁用了Cookie
+
+session占用的存储空间
+
+
+### cookie
 

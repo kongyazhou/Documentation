@@ -130,3 +130,9 @@ standard.jar和jstl.jar的[下载地址](http://blog.sina.com.cn/s/blog_904d1154
 mysql 用户管理和[权限管理](http://www.cnblogs.com/fslnet/p/3143344.html)
 
 
+## Mysql图形化管理工具
+mysql navicat
+优点是支持中文
+[官方网站](http://www.navicat.com.cn/)
+[注册机下载](http://download.csdn.net/detail/ydq0828/7378133)
+

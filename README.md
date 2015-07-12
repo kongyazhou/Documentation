@@ -11,3 +11,5 @@ Summer Theatre Documentation(以下简称STD)项目的主要任务是归集Summe
 
 资料将分为Daemon和WebPage两部分。
 Daemon是后台程序开发资料，Webpage是前端页面设计资料。
+
+改后台程序要重启tomcat才能生效，改JSP直接生效。
