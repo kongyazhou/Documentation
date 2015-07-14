@@ -136,3 +136,12 @@ mysql navicat
 [官方网站](http://www.navicat.com.cn/)
 [注册机下载](http://download.csdn.net/detail/ydq0828/7378133)
 
+char和varchar
+char效率高 占存储大
+varchar效率低 占存储小(占用空间随内容变化)
+[MYSQL中CHAR,VARCHAR,BLOB和TEXT的比较](http://blog.csdn.net/forever0wind/article/details/7473576)
+
+没有boolean
+用tinyint代替
+
+[mysql 中 character set 与 collation 的点滴理解](http://zhongwei-leg.iteye.com/blog/899227)
