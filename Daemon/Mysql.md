@@ -145,3 +145,23 @@ varchar效率低 占存储小(占用空间随内容变化)
 用tinyint代替
 
 [mysql 中 character set 与 collation 的点滴理解](http://zhongwei-leg.iteye.com/blog/899227)
+
+[Mysql中用中文查询的方法](http://www.ibm.com/developerworks/cn/java/j-lo-chinesecoding/)
+
+要使用中文查询数据库，建立连接时应如下写：
+
+    Connection conn = DriverManager.getConnection("jdbc:mysql://192.168.182.128:3306/Summer?useUnicode=true&characterEncoding=UTF-8","root","1");
+
+
+这个查询要求是：用模糊查询查地址是，广州，上海，成都的学员
+select * from stuInfno where stuaddress like '北京%','上海%','成都%'
+这样不对啊，到底该怎么写啊，指教下
+
+select * from stuInfno 
+where substring(stuaddress,1,2) in ('北京','上海','成都')
+
+[Tomcat线程池设置](http://my.oschina.net/u/1266624/blog/163539)
+额 这个好像不是数据库连接池..
+
+连接池的使用将放到后期的性能优化上去。
+第一版将不使用。

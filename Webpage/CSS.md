@@ -1,11 +1,17 @@
-CSS
-======
+# CSS
+
 
 ## 简介
 
 
 ## Bootstrap
+[Bootstrap 教程](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)
 本项目使用了Bootstrap框架[百度百科](http://baike.baidu.com/link?url=i7wrapW6IuNr38qLjc9NoSCuSpTLCWr-FIE39JXSc4GWQWSKoF00d4_l0XdZzwegUruSckfu8qyal2OYg-ALrHZp9tzR8sSAv8L5iF6gwzO)。
+
+[水平排列](http://blog.csdn.net/a316212802/article/details/24921087)
+
+[jquery星星评分插件Bootstrap Star Rating](http://www.jq22.com/jquery-info460)
+
 Bootstrap，来自 Twitter，是目前最受欢迎的前端框架。
 Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。
 它由Twitter的设计师Mark Otto和Jacob Thornton合作开发，是一个CSS/HTML框架。

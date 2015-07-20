@@ -1,5 +1,8 @@
-HTML5
-==========
+# HTML5
+
+[表单的GET和POST方法](http://blog.csdn.net/wzwenhuan/article/details/7803510)
+
+[用画图软件修改图片像素](http://jingyan.baidu.com/article/cdddd41c59463653cb00e1d4.html)
 
 注释：Internet Explorer 8 以及更早的版本不支持 <video> 标签。
 格式      IE     Firefox      Opera      Chrome        Safari
