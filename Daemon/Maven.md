@@ -1,5 +1,7 @@
 #Maven
 
+更多资料见百度文库
+
 ## POM
 
 Project Object Model，项目对象模型。
@@ -11,4 +13,11 @@ Project Object Model，项目对象模型。
 [maven核心，pom.xml详解](http://blog.csdn.net/zhuxinhua/article/details/5788546)
 
 [Maven的配置文件pom.xml](http://www.cnblogs.com/yakov/archive/2011/11/26/maven_pom.html)
+
+[Maven 项目打包发布](http://blog.csdn.net/nairuohe/article/details/6273852)
+
+
+## Maven下载安装
+
+[MyEclipse下Maven的安装配置](http://jingyan.baidu.com/article/4f7d5712aa9c631a201927ea.html)
 
