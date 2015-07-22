@@ -21,3 +21,11 @@ Project Object Model，项目对象模型。
 
 [MyEclipse下Maven的安装配置](http://jingyan.baidu.com/article/4f7d5712aa9c631a201927ea.html)
 
+[Maven构建Web项目步骤](http://blog.csdn.net/chuyuqing/article/details/28879477)
+
+[初学Maven常见错误及解决方法](http://blog.csdn.net/chenjunan888/article/details/42263805)
+
+[No goals have been specified for this build.问题解决办法：在pom.xml文件<build>标签后面加上<defaultGoal>compile</defaultGoal>即可。](http://bbs.csdn.net/topics/380046216)
+
+[Maven构建web项目在Eclipse中部署的几种方法](http://www.micmiu.com/software/build/maven-web-eclipse-deploy/)
+
