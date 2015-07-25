@@ -29,3 +29,7 @@ Project Object Model，项目对象模型。
 
 [Maven构建web项目在Eclipse中部署的几种方法](http://www.micmiu.com/software/build/maven-web-eclipse-deploy/)
 
+[maven项目中target文件夹maven-metadata-local.xml是什么](maven-metadata-local.xml这个文件就是包含artifactId，groupId等坐标信息，从而让maven可以找到这个插件。)
+
+[ApplicationContext.xml配置文件](http://baike.baidu.com/link?url=CmUKX8KaeJOA4_ChEA2I31vhS-jwQJ3xmroHjTPCh7fZeWPgCnH0RRoWPzPnb6BLmnttAVSmdEqLiPmIJxYbb_)
+
