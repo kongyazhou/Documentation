@@ -12,7 +12,7 @@ holder:
 http://apps.bdimg.com/libs/holder/2.3.1/holder.js
 
 bootstrap:      
-http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js
+http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.js
 
 jquery:         
 http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js

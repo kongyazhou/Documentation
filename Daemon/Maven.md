@@ -35,3 +35,9 @@ Project Object Model，项目对象模型。
 
 [ApplicationContext.xml配置文件](http://baike.baidu.com/link?url=CmUKX8KaeJOA4_ChEA2I31vhS-jwQJ3xmroHjTPCh7fZeWPgCnH0RRoWPzPnb6BLmnttAVSmdEqLiPmIJxYbb_)
 
+[maven集成tomcat进行web应用测试](http://www.360doc.com/content/12/1010/19/203871_240697036.shtml)
+
+[maven自动部署web项目到外部tomcat8（向下兼容7）](http://blog.csdn.net/white__cat/article/details/42318809)
+
+[运用Run on Server（tomcat）部署时，Maven lib依赖问题的解决](http://www.micmiu.com/software/build/eclipse-maven-web-lib/)
+
