@@ -1,11 +1,19 @@
 #player.md
 
+[一个能看很多收费电影的小网站](http://www.yakuhd.com/programs/159129.html)
+
+[这是我弄了半天找到的疑似播放器代码，抽时间研究出来然后他的就是我的](http://vip3.rwjfs.com/tp/js/tp.js)o(*￣▽￣*)ブ
+
 [最简单的基于Flash的流媒体示例：网页播放器（HTTP，RTMP，HLS）](http://blog.csdn.net/leixiaohua1020/article/details/43936415)
 
 
 影音嗅探器
 
 [流媒体网站制作方法](http://zhidao.baidu.com/link?url=vg7rGQgcaFdvGPn2Cob87fff0UG3MknyywjYzWKP6H9alsxamZkf1k0N0AUkuG_WU-dKSk9_w1QboDz5Mg9JJ_)
+
+
+[优酷土豆腾讯视频html地址转flash swf地址](http://www.phpddt.com/php/html-to-flashswf.html)
+
 
 ## 获取网络流媒体地址
 
