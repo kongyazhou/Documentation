@@ -26,3 +26,5 @@ Bootstrap一经推出后颇受欢迎，一直是GitHub上的热门开源项目�
 网站上还有许多Bootstrap[示例模板](http://bootstrap.evget.com/examples/theme/index.html#)展示，可以拷贝和学习。
 
 还有许多成熟的[案例](http://bootstrap.evget.com/getting-started.html#examples)供学习参考。
+
+[Bootstrap 教程](http://www.dnzs.com.cn/w3cschool/bootstrap/bootstrap-tutorial.html)，里面还有CSS和HTML的教程链接。
