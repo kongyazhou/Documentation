@@ -28,3 +28,17 @@ Bootstrap一经推出后颇受欢迎，一直是GitHub上的热门开源项目�
 还有许多成熟的[案例](http://bootstrap.evget.com/getting-started.html#examples)供学习参考。
 
 [Bootstrap 教程](http://www.dnzs.com.cn/w3cschool/bootstrap/bootstrap-tutorial.html)，里面还有CSS和HTML的教程链接。
+
+[你所不知的 CSS ::before 和 ::after 伪元素用法](http://justcoding.iteye.com/blog/2032627)
+
+[Creative Link Effects](http://tympanus.net/Development/CreativeLinkEffects/)
+
+[Creative Button Styles](http://tympanus.net/Development/CreativeButtons/)
+
+[Progress Button Styles](http://tympanus.net/Development/ProgressButtonStyles/)
+
+[Creative Loading Effects](http://tympanus.net/Development/CreativeLoadingEffects/)
+
+[Nifty Modal Window Effects](http://tympanus.net/Development/ModalWindowEffects/)
+
+[Icon Hover Effects](http://tympanus.net/Development/IconHoverEffects/)
