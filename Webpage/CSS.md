@@ -29,6 +29,23 @@ Bootstrap一经推出后颇受欢迎，一直是GitHub上的热门开源项目�
 
 [Bootstrap 教程](http://www.dnzs.com.cn/w3cschool/bootstrap/bootstrap-tutorial.html)，里面还有CSS和HTML的教程链接。
 
+
+## [Bootstrap 栅格系统](http://www.cnblogs.com/linjiqin/p/3559800.html)
+
+    ```
+    Bootstrap内置了一套响应式、移动设备优先的流式栅格系统。
+    随着屏幕设备或视口（viewport）尺寸的增加，系统会自动分为最多12列。
+    它包含了易于使用的预定义classe，还有强大的mixin用于生成更具语义的布局。
+    ```
+
+bootstrap使用了四种栅格选项来形成栅格系统。
+他们分别是col-xs、col-sm、col-md、col-lg。
+这四种选项分别适合不同尺寸的屏幕设备。
+lg是large的缩写，md是mid的缩写，sm是small的缩写，xs是extremly small的缩写。
+
+
+
+
 [你所不知的 CSS ::before 和 ::after 伪元素用法](http://justcoding.iteye.com/blog/2032627)
 
 [Creative Link Effects](http://tympanus.net/Development/CreativeLinkEffects/)

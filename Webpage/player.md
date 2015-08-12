@@ -14,6 +14,8 @@
 
 [优酷土豆腾讯视频html地址转flash swf地址](http://www.phpddt.com/php/html-to-flashswf.html)
 
+[腾讯视频地址怎么转换成flash地址](http://jingyan.baidu.com/article/90808022f811ddfd91c80f91.html?st=2&os=0&bd_page_type=1&net_type=2)
+
 
 ## 获取网络流媒体地址
 
