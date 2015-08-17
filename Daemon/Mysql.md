@@ -165,3 +165,5 @@ where substring(stuaddress,1,2) in ('北京','上海','成都')
 
 连接池的使用将放到后期的性能优化上去。
 第一版将不使用。
+
+[PrepareStatement作用](http://zhidao.baidu.com/link?url=nRWmzf3zckaZROf3U46F8kgBsEg9JnnJkvJngEaZ-3MKQ-BeBc7bMYR5AzCzC_BtD8eq97biEnMkSUYCAa-Iha)
