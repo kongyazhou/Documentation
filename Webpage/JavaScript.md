@@ -131,3 +131,6 @@ Backbone将数据呈现为模型, 你可以创建模型、对模型进行验证�
 20.如何获得客户端浏览器的名称？
 正确答案：navigator.appName
 ```
+
+
+[返回顶端按钮JS代码](http://www.jb51.net/article/35995.htm)
