@@ -48,7 +48,9 @@ Daemon是后台程序开发资料，Webpage是前端页面设计资料。
 7. [最牛前端](http://f2er.club/)
 8. [做什么网站赚钱](http://zhidao.baidu.com/link?url=vIfjuudn53enZx77ax121sKtigreQtWOyRbeNS7A58QjkPKQwyriS2d93E4aFt0fF_fZ7fSciej2wzCsSO0na_)
 9. [BOOTCDN](www.bootcdn.cn)，感觉要比百度的CDN更全更丰富
+10. [web前端性能优化进阶路](http://blogread.cn/it/article/6217?f=wb)
  
+
 ## 推荐开发工具
 
 SublimeText3文本编辑器，[Package Control控件下载](https://packagecontrol.io/installation)。
