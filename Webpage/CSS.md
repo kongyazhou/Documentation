@@ -1,8 +1,25 @@
 # CSS
 
+[W3C在线教程](http://www.w3school.com.cn/css/)
 
 ## 简介
+CSS （层叠样式表）是一种用来表现HTML（标准通用标记语言的一个应用）或XML（标准通用标记语言的一个子集）等文件样式的计算机语言。
 
+相对于传统HTML的表现而言，CSS能够对网页中的对象的位置排版进行像素级的精确控制，支持几乎所有的字体字号样式，拥有对网页对象和模型样式编辑的能力，并能够进行初步交互设计，是目前基于文本展示最优秀的表现设计语言。
+
+目前最新版本为CSS3。
+
+## 实例
+#para1
+{
+text-align:center;
+color:red;
+}
+
+#para1	id="para1"  	
+.type1	class="type1"	
+p.atype	class="atype"的<p>标签
+(HTML标签)
 
 ## Bootstrap
 [Bootstrap 教程](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)

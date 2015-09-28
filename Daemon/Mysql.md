@@ -167,3 +167,10 @@ where substring(stuaddress,1,2) in ('北京','上海','成都')
 第一版将不使用。
 
 [PrepareStatement作用](http://zhidao.baidu.com/link?url=nRWmzf3zckaZROf3U46F8kgBsEg9JnnJkvJngEaZ-3MKQ-BeBc7bMYR5AzCzC_BtD8eq97biEnMkSUYCAa-Iha)
+
+[从关系型数据库到非关系型数据库](http://blog.csdn.net/robinjwong/article/details/18502195)
+
+数据库事务必须具备ACID特性，ACID是Atomic原子性，Consistency一致性，Isolation隔离性，Durability持久性。
+
+在读方面，传统上为了克服关系型数据库缺陷，提高性能，都是增加一级 [**memcache**](http://baike.baidu.com/link?url=DF2GBJjkYN4IK436o4ZEl5R8YJ4mPqtmpUcsZHAVtroIc-wdSecYUgXtYpvbfvNcvUHMJVxS5XdcOqCnqvNt6_)来静态化网页，而在SNS中，变化太快，**memchache**已经无能为力了。
+
