@@ -66,3 +66,9 @@ SublimeText3文本编辑器，[Package Control控件下载](https://packagecontr
 Emmet前端开发工具，[常用快捷键](http://docs.emmet.io/cheat-sheet/)。
 
 Markdown文本格式[GFM](https://www.zybuluo.com/techird/note/46064)，GitHub Readme文档的格式，简单好用，推荐！
+
+本项目完成后，开始学习PHP建站，使用Wordpress快速搭建博客、论坛。主题暂定为大数据分析。
+
+未来还可以建法律文库等专业文档库。
+
+服务器平台使用IBM Bluemix，版本管理使用git。
