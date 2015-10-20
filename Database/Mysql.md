@@ -15,11 +15,13 @@ mysqladmin -u root -p password 1
 
     GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'IDENTIFIED BY '123456' WITH GRANT OPTION;
  说明：root是登陆数据库的用户，123456是登陆数据库的密码，*就是意味着任何来源任何主机反正就是权限很大的样子。
-最后配置好权限之后不应该忘记刷新使之生效
+	```
+	最后配置好权限之后不应该忘记刷新使之生效
+	
+	    flush privileges;
 
-    flush privileges;
- 再次访问就可以了吧。
-
+	 再次访问就可以了。
+	```
 本项目数据库将使用Mysql。
 在CentOS7中 Mysql升级为MariaDB。
 
@@ -174,3 +176,26 @@ where substring(stuaddress,1,2) in ('北京','上海','成都')
 
 在读方面，传统上为了克服关系型数据库缺陷，提高性能，都是增加一级 [**memcache**](http://baike.baidu.com/link?url=DF2GBJjkYN4IK436o4ZEl5R8YJ4mPqtmpUcsZHAVtroIc-wdSecYUgXtYpvbfvNcvUHMJVxS5XdcOqCnqvNt6_)来静态化网页，而在SNS中，变化太快，**memchache**已经无能为力了。
 
+
+## [用户权限管理](http://www.cnblogs.com/4php/p/4113593.html)
+2.1 创建普通用户
+
+2.1.1 CREATE USER
+
+CREATE USER ‘用户名称’ [@’主机名称’]
+
+例：CREATE USER 'user1';
+
+验证是否创建成功：
+
+mysql> SELECT user FROM mysql.user;
+
+4. 修改用户密码：
+
+ 
+
+UPDATE mysql.user SET password=PASSWORD('新密码') WHERE user='用户名
+
+[AND host=’主机名称’]';
+
+UPDATE mysql.user SET password=PASSWORD('111111') WHERE user='root';
