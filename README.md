@@ -1,36 +1,33 @@
-# SummerTheatreDocumentation
-夏日影院文档资料
+# 文档资料
+
+```
+原夏日影院文档资料库
+随着开发的持续，资料越来越丰富
+显然不能仅仅把它当成项目设计资料库了
+于是决定把他建成公共资料库
+主要内容包括:算法、大数据分析、Web开发、移动开发等
+```
 
 ## 说明
 
-Summer Theatre Documentation(以下简称STD)项目的主要任务是归集SummerTheatre开发过程中的文档资料。
 
-    ```
-    STD记录并整理Summer Theatre项目的整个开发过程；
-	总结、记录Summer Theatre使用到的每一种技术的学习资料；
-	总结、简化开发流程；
-	参照这篇文档的开发流程及资料，
-	能够快速、顺利地进行网站维护和开发。
-    ```
+现将资料分为数据库、前端、后台程序、服务器、商业运营五个部分。
 
-现将资料分为设计、数据库、前端、后台程序、服务器、商业运营六个部分。
-1. 设计
-设计资料，包括需求分析、概要设计等。
-2. 数据库
+1. 数据库
 数据库资料，学习资料、网站数据库设计等。
-3. 前端
+2. 前端
 前端学习资料。
-4. 后台程序
+3. 后台程序
 后台程序资料。
-5. 服务器
+4. 服务器
 服务器部署、配置、比较等相关资料。
-6. 商业运营
+5. 商业运营
 运营推广、SEO优化等学习资料。
 
 ## 参考资料
 
   ```
-  项目涉及的语言、技术和数据格式
+  语言、技术和数据格式
   ```
 
 1. [HTML](http://www.w3school.com.cn/html/index.asp/)
@@ -57,7 +54,7 @@ Summer Theatre Documentation(以下简称STD)项目的主要任务是归集Summe
 8. [做什么网站赚钱](http://zhidao.baidu.com/link?url=vIfjuudn53enZx77ax121sKtigreQtWOyRbeNS7A58QjkPKQwyriS2d93E4aFt0fF_fZ7fSciej2wzCsSO0na_)
 9. [BOOTCDN](www.bootcdn.cn)，感觉要比百度的CDN更全更丰富
 10. [web前端性能优化进阶路](http://blogread.cn/it/article/6217?f=wb)
- 
+
 
 ## 推荐开发工具
 
@@ -70,5 +67,3 @@ Markdown文本格式[GFM](https://www.zybuluo.com/techird/note/46064)，GitHub R
 本项目完成后，开始学习PHP建站，使用Wordpress快速搭建博客、论坛。主题暂定为大数据分析。
 
 未来还可以建法律文库等专业文档库。
-
-服务器平台使用IBM Bluemix，版本管理使用git。
