@@ -1,5 +1,9 @@
 # SEO
 
+```
+网站的推广是一个漫长的过程，“心急吃不了热豆腐”，不要整天想着一建站就有巨大的流量。
+```
+
 ## SEO概念
 
 SEO由英文Search Engine Optimization缩写而来， 中文意译为“搜索引擎优化”。
@@ -9,6 +13,13 @@ SEO是指从自然搜索结果获得网站流量的技术和过程，是在了�
     ```
     简而言之，SEO就是优化网站，提升搜索排名。
     ```
+
+## 优化指标
+1. [Google PR值](http://baike.baidu.com/link?url=k2TH1q_1KstE0I5b2ZzBEu1fL4aZ8ABXhxYrseEkZTeE0ZDUg_CihaXZfuaM-7AJ78ZcNz-3MAgS_ARFvrx0ha)
+2. 日均 IP
+3. 日均 PV
+4. [外链数](http://baike.baidu.com/link?url=mTZeqSHbuQM8LfiKZmK0SQwH7ip6rzP4eF2Sg56y8gF2hKpil2oUurTytYJr6msRUZXlKfupg95BNG-Bxp8i3_)
+5. [Alexa.cn](http://www.alexa.cn/)
 
 ## 优化内容
 
@@ -64,3 +75,9 @@ SEO是指从自然搜索结果获得网站流量的技术和过程，是在了�
 关键词的时效性；
 分析竞争对手；
 有些词是从百度的相关搜索中过来的，而非用户搜索的关键词。
+
+
+## 参考资料
+
+1. 《[为什么你做的SEO没效果？](http://tieba.baidu.com/p/3899909934)》
+2. [卢松松博客-新网站如何做SEO优化](http://lusongsong.com/reed/334.html)
