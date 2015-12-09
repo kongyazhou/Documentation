@@ -1,4 +1,11 @@
-# JSON
+---
+title: Node.js
+layout: post
+date: 2013-08-11 10:55
+comments: true
+tags: 
+	-Deamon
+---
 
 * [百度百科 JSON词条](http://baike.baidu.com/view/136475.htm) 
 

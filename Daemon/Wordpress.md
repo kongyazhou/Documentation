@@ -26,7 +26,7 @@ Wordpress是PHP建站重要模版工具
 
 不过若是要在这下载源码，是要收费的。
 
-### XIU
+#### XIU
 
 [源码下载](http://down.cnzz.cn/201410/28986936.shtml)
 
@@ -34,7 +34,7 @@ Wordpress是PHP建站重要模版工具
 
 [使用教程](http://www.thefox.cn/wordpress-alibaixiu.shtml)
 
-### DUX
+#### DUX
 
 [源码下载](http://www.toptheme.org/wp/bk/2777.html)
 
@@ -44,27 +44,27 @@ Wordpress是PHP建站重要模版工具
 
 ## 插件推荐
 
-### Visual Composer
+#### Visual Composer
 
 可视页面编辑插件，告别代码，点点鼠标页面就出来了。
 
-### all in one seo pack
+#### all in one seo pack
 
 SEO优化插件，许多站长都推荐，但使用发现插件主要是面向Google搜索的，但依然值得使用。
 
-### Open Social
+#### Open Social
 
 社交媒体账号登录，提供如:QQ、微博登陆等。
 
-### 多说
+#### 多说
 
 多说评论插件，提供社交网站账号登录，但必须和Wordpress帐号绑定，和Open Social插件有一定冲突。
 
-### 百度sitemap
+#### 百度sitemap
 
-### Baidu Links Submit
+#### Baidu Links Submit
 
-### simple-local-avatars
+#### simple-local-avatars
 
 使网站的用户能够自定义头像。
 
