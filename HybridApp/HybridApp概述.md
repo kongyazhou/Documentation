@@ -12,8 +12,10 @@ HybridApp即混合开发的移动应用。
 Hybrid开发主要由以下几个部分组成：
 
 - Web开发UI框架
+ - Js 
 - 源生功能插件
 - 构建工具
+a
 
 ## PhoneGap
 

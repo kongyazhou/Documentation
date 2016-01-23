@@ -16,3 +16,39 @@ Cordova提供了一组设备相关的API，通过这组API，移动应用能够�
 
 #### 
 
+## 存储
+
+WebSQL
+
+[W3C WebSQL介绍](http://dev.w3.org/html5/webdatabase/)
+
+## 事件
+
+**Event Types**
+
+- deviceready
+- pause
+- resume
+- backbutton
+- menubutton
+- searchbutton
+- startcallbutton
+- endcallbutton
+- volumedownbutton
+- volumeupbutton
+
+**Events added by cordova-plugin-battery-status**
+
+- batterycritical
+- batterylow
+- batterystatus
+
+**Events added by cordova-plugin-network-information**
+
+- online
+- offline
+
+
+## 图标和启动画面
+
+Icons and Splash Screens
