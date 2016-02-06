@@ -1,15 +1,28 @@
-Mysql
-======
-查看安装的mariadb包
-rpm -qa|grep mariadb
+# Mysql
 
+## 安装MariaDB/Mysql
+
+查看已安装的mariadb包
+```bash
+rpm -qa|grep mariadb
+```
+
+删除已安装的mariadb
+```
 yum remove mariadb mariadb-server
+```
+
+从网络安装mariadb
+```
 yum install mariadb mariadb-server
+```
 
 /var/lib/mysql
 
 设置root密码(为1)
+```bash
 mysqladmin -u root -p password 1
+```
 
 首先配置允许访问的用户，采用授权的方式给用户权限
 
@@ -22,8 +35,9 @@ mysqladmin -u root -p password 1
 
 	 再次访问就可以了。
 	```
+
 本项目数据库将使用Mysql。
-在CentOS7中 Mysql升级为MariaDB。
+在CentOS7中使用了MariaDB替代了之前一直使用的Mysql。
 
 可以参考网上的[资料](http://www.cnblogs.com/zhangzhu/archive/2013/07/04/3172486.html)，很全很详细。
 centOS7中用mariadb代替了mysql，启动、重启服务命令如下：

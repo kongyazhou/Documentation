@@ -32,7 +32,7 @@ Android开发内容将单独作文。
 
 在正式开始学习Java网站开发之前，我们应当先了解一下MVC模型这个概念。
 
-在Java开发中有一个设计模式，叫做MVC，意思是Model(模型)-View(视图)-Controller(控制器)。
+在Java开发中有一个设计模式，叫做MVC，意思是Model(数据模型)-View(视图)-Controller(控制器)。
 
 模型就是javaBean，用来封装和书写逻辑；
 
