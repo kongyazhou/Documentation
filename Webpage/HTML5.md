@@ -22,3 +22,13 @@ video 元素允许多个 source 元素。source 元素可以链接不同的视�
         <source src="movie.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+
+
+
+## WebSocket
+
+是HTML5所支持的socket
+
+服务器端倾力推荐[Websocketd](https://github.com/joewalnes/websocketd)
+
+Websocketd能够迅速建立起一套基于Websocket协议的服务器端环境。

@@ -1,8 +1,9 @@
 # PhoneGap
 
-- [PhoneGap官网](http://phonegap.com/)
-- [PhoneGap Build](https://build.phonegap.com/apps)
-- [PhoneGap百度百科词条](http://baike.baidu.com/link?url=uPq1YgbpfeI6r2fKCGDk02GKxNczIkfPqw-fnaef45D0Sdl_ziUQLVhtwP53W3pAjMPNa5mQqXkS0qwnlkTEqK)
+* [概述](#概述)
+* [调试](#调试)
+* [构建](#构建)
+* [参考资料](#参考资料)
 
 ## 概述
 
@@ -15,6 +16,10 @@
 业界很多主流的移动开发框架均源于PhoneGap。
 
 较著名的有Worklight、appMobi、WeX5等。其中WeX5是国产的。
+
+```
+PhoneGap为HybridApp开发提供了强大的构建和调试平台。
+```
 
 ## 构建
 
@@ -30,7 +35,15 @@ PhoneGap Build是一款非常强大的在线构建工具，能够将Github上的
 
 #### 离线构建
 
+在项目根目录路径下输入：
 
+	cordova build android
+
+生成的apk文件在platforms/android/build/outputs/apk文件夹下
+
+```
+更多操作见cordova
+```
 
 ## 调试
 
@@ -48,7 +61,15 @@ PhoneGap Build是一款非常强大的在线构建工具，能够将Github上的
 
 如果找不到官方的下载lantern-android的方法，可以使用百度云盘上的beta版备份。
 
-## GapDebug
+#### GapDebug
 
 一款针对PhoneGap移动开发的开发调试软件。
+
+PhoneGap生成的APP在手机上运行时，连上电脑，打开该软件，能够看到源码，以及代码的实时动态。
+
+## 参考资料
+
+- [PhoneGap官网](http://phonegap.com/)
+- [PhoneGap Build](https://build.phonegap.com/apps)
+- [PhoneGap百度百科词条](http://baike.baidu.com/link?url=uPq1YgbpfeI6r2fKCGDk02GKxNczIkfPqw-fnaef45D0Sdl_ziUQLVhtwP53W3pAjMPNa5mQqXkS0qwnlkTEqK)
 
