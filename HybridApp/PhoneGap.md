@@ -42,7 +42,7 @@ PhoneGap Build是一款非常强大的在线构建工具，能够将Github上的
 生成的apk文件在platforms/android/build/outputs/apk文件夹下
 
 ```
-更多操作见cordova
+更多操作见《cordova》
 ```
 
 ## 调试
