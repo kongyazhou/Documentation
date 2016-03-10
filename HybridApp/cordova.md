@@ -4,6 +4,7 @@
 Cordova提供了一组设备相关的API，通过这组API，移动应用能够以JavaScript访问原生的设备功能，如摄像头、麦克风等。
 ```
 
+[cordova插件官方查询页面](http://cordova.apache.org/plugins/)
 
 
 ## 常用命令
@@ -19,6 +20,10 @@ Cordova提供了一组设备相关的API，通过这组API，移动应用能够�
 - 添加支持的平台
 
 	cordova platform add <platform name>
+
+- 添加插件
+
+	cordova plugin add <plugin name>
 
 - 运行你的app
 

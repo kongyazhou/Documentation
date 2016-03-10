@@ -15,6 +15,47 @@ WebSocket protocol 是HTML5提供的一种新的通信方式。它实现了浏�
 
 ## PhoneGap Android中使用Websocket
 
+#### 使用cordova官方websocket插件
+
+```
+这是官方的插件，当然要用这个。
+后面还介绍了两个分官方插件，仅作学习之用。
+```
+
+cordova官方websocket插件：[cordova-plugin-websocket](https://www.npmjs.com/package/cordova-plugin-websocket)
+
+**安装方法**
+
+	cordova plugin add cordova-plugin-websocket
+
+**示例代码**
+
+	document.addEventListener('deviceready', function () {
+	    var ws = new WebSocket('ws://echo.websocket.org');
+	 
+	    ws.onopen = function () {
+	        console.log('open');
+	        this.send('hello');         // transmit "hello" after connecting 
+	    };
+	 
+	    ws.onmessage = function (event) {
+	        console.log(event.data);    // will be "hello" 
+	        this.close();
+	    };
+	 
+	    ws.onerror = function () {
+	        console.log('error occurred!');
+	    };
+	 
+	    ws.onclose = function (event) {
+	        console.log('close code=' + event.code);
+	    };
+	}, false);
+
+由于项目时间紧迫，未能深究。
+
+其他事项请查看官网说明。
+
 #### anismiles/websocket-android-phonegap
 
 anismiles的[websocket-android-phonegap](https://github.com/anismiles/websocket-android-phonegap)使得PhoneGap能够使用Websocket进行通信。
@@ -59,7 +100,9 @@ ps: It doesn't support 'onerror' event, and various states as defined by WebSock
 
 这种方法适用于早期phonegap2.9.0版本，而目前phonegap已经更新到6.*版本，已经发生了许多变化，这种方法不再支持。
 
-目前我正在考虑在这份代码上稍作修改使其支持最新的phonegap。
+未来有时间可以考虑学习这份代码，并稍作修改使其支持最新的phonegap。
+
+有时间的话。
 
 #### koush/AndroidAsync
 
@@ -69,7 +112,9 @@ Asynchronous socket, http (client+server), websocket, and socket.io library for 
 
 koush的[AndroidAsync](https://github.com/koush/AndroidAsync)项目是github上关于Android Websocket star数最多的项目了。
 
-正在学习中，看看能为否为我所用。
+有时间的话可以学习学习，看看能为否为我所用。
+
+有时间的话。
 
 ## 参考文章
 
