@@ -174,3 +174,51 @@ $("元素").remove(); 删除所有的指定元素
 $("元素").remove("exp"); 删除所有含有exp的元素
 $("元素").wrap("html"); 用html来包围该元素
 $("元素").wrap(element); 用element来包围该元素
+
+
+不知道你对javascript是否了解，如果了解可以跟你举一个例子：
+新建一个 HTML 文件 1-1.html，加入如下所示的代码。
+一个简单的 jQuery 应用
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 
+Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> 第一个简单的jQuery 程序 </title>
+    <script language="javascript" type="text/javascript" 
+            src="Jscript/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript">
+           $(document).ready(function(){
+              alert("您好, 欢迎来到jQuery世界");           
+           })
+    </script>
+</head>
+<body>
+</body>
+</html>
+在上述文件的代码中，有一段如下的代码 ：
+$(document).ready(function(){
+               //程序段         
+})
+该段代码类似于传统的 JavaScript 代码：
+window.onload=function(){
+               //程序段
+}
+//--
+//window.onload=function(){...}的作用又跟声明函数loading function loading(){...}，并在html的<body onload="loading()">调用一样
+//这样写就不用在body的onload事件里面调用，只需在js程序段里面编写即可
+//--
+虽然上述两段代码在功能上可以互换，但它们之间又有许多区别 ：
+  执行时间不同： $(document).ready在页面框架下载完毕后就执行；而window.onload必须
+在页面全部加载完毕（包含图片下载）后才能执行。很明显，前者的执行效率高于后者。
+  执行数量不同： $(document).ready可以重复写多个，并且每次执行结果不同；而window.
+onload尽管可以执行多个，但仅输出最后一个执行结果，无法完成多个结果的输出。
+  $(document).ready(function(){}) 可以简写成 $(function(){})，因此与下面的代码是等
+价的。
+$(document).ready(function(){
+              // 程序段           
+})
+等价于
+$(function(){
+              // 程序段           
+})

@@ -6,7 +6,7 @@ WebSocket protocol 是HTML5提供的一种新的通信方式。它实现了浏�
 
 [知乎大神讲解Websocket](http://www.zhihu.com/question/20215561)
 
-## Websocket
+## Websocket协议
 
 [WebSocket 实战](http://www.ibm.com/developerworks/cn/java/j-lo-WebSocket/)
 
@@ -115,6 +115,20 @@ koush的[AndroidAsync](https://github.com/koush/AndroidAsync)项目是github上�
 有时间的话可以学习学习，看看能为否为我所用。
 
 有时间的话。
+
+## 服务器端websocketd
+
+Github上的[joewalnes/websocketd](https://github.com/joewalnes/websocketd)是一款基于go语言开发的快速搭建websocket服务器的框架。
+
+使用该框架后，服务器上的程序的标准输入输出都变成了发送和接收websocket消息。
+
+程序可使用Python, Ruby, Perl, Bash, .NET, C, Go, PHP, Java, Clojure, Scala, Groovy, Expect, Awk, VBScript, Haskell, Lua, R, whatever!
+
+我推荐使用python。
+
+	websocketd --port=8080 python main.py
+
+即可在8080端口监听websocket消息。
 
 ## 参考文章
 
