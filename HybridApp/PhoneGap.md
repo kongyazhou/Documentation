@@ -3,6 +3,7 @@
 * [概述](#概述)
 * [调试](#调试)
 * [构建](#构建)
+* [PhoneGap事件](#PhoneGap事件)
 * [参考资料](#参考资料)
 
 ## 概述
@@ -66,6 +67,63 @@ PhoneGap Build是一款非常强大的在线构建工具，能够将Github上的
 一款针对PhoneGap移动开发的开发调试软件。
 
 PhoneGap生成的APP在手机上运行时，连上电脑，打开该软件，能够看到源码，以及代码的实时动态。
+
+## PhoneGap事件
+
+#### deviceready 事件
+
+在使用PhoneGap开发应用时，deviceready事件是非常常用的。这一事件在设备的本地环境和页面完全加载完成之后才触发
+
+注意：此事件一般晚于jquery 的ready事件，jquery的ready事件是在DOM 完全加载完成后触发，deviceready则是设备的本地环境和页面完全加载完成之后才触发
+
+PhoneGap包含两个基础，native和JavaScript，当native加载的时候，自定义的一些图片会被调用，而JavaScript需要在DOM加载后就会被加载。这是可能造成JavaScript在图片加载前就已经被调用了。使用deviceready事件可以很好的解决这类问题，他可以保证PhoneGap是在完全加载完成后，才会被触发。
+
+#### pause  事件
+
+当PhoneGap应用被置为后台时触发
+
+#### resume事件
+
+当PhoneGap应用重新从后台置为前台时触发
+
+#### online事件
+
+当PhoneGap应用连接因特网时触发
+
+#### offline 事件
+
+当PhoneGap应用断开因特网时触发
+
+#### backbutton事件
+
+当单击退回按钮时触发
+
+#### menubutton 事件
+
+当单击菜单按钮时触发
+
+#### batterycritical事件
+
+当PhoneGap应用监控到电池达到警告时触发（20%）
+
+batterycritical的处理程序将会调用一个对象，该对象包含以下两个属性： 
+•    level：电池剩余电量的百分比，取值范围是0-100。(数字类型) 
+•    isPlugged：boolean型的值，表示设备是否接通电源。 
+
+#### batterylow事件
+
+在电量非常低的情况下触发（5%）
+batterylow的处理程序将会调用一个对象，该对象包含以下两个属性： 
+•    level：电池剩余电量的百分比，取值范围是0-100。(数字类型) 
+•    isPlugged：boolean型的值，表示设备是否接通电源。 
+
+#### batterystatus事件
+
+PhoneGap应用监控到电池状态有改变时触发（每当电量变化1%的时候触发一次）
+
+batterystatus的处理程序将会调用一个对象，该对象包含以下两个属性： level：电池剩余电量的百分比，取值范围是0-100。(数字类型) 
+isPlugged：boolean型的值，表示设备是否接通电源。
+
 
 ## 参考资料
 

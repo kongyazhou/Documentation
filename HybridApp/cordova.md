@@ -37,16 +37,19 @@ Cordova提供了一组设备相关的API，通过这组API，移动应用能够�
 
 #### 推送插件phonegap-plugin-push
 
+[谷歌GCM推送插件phonegap-plugin-push](https://www.npmjs.com/package/phonegap-plugin-push)，实现推送消息，可惜谷歌被墙不能用
 
+[ 跨平台移动开发phonegap/cordova 3.3全系列教程-百度云推送push](http://blog.csdn.net/mansai/article/details/19073913)，这什么年代的了
 
-[谷歌GCM推送插件phonegap-plugin-push](https://www.npmjs.com/package/phonegap-plugin-push) 实现推送消息。
+[百度云推送官网](http://push.baidu.com/)，并没有phonegap插件。
 
+[Android版添加phonegap--百度云插件教程](https://www.douban.com/note/530249993/?type=like)，是最近的，可是看不懂
 
-[百度云推送](http://blog.csdn.net/mansai/article/details/19073913)
+[极光推送jPush](https://github.com/jpush/jpush-phonegap-plugin)，一直在维护，这个可以有
 
-[极光推送jPush](http://bbs.phonegapcn.com/thread-10250-1-1.html)
+另外还有个[极光IM](https://github.com/jpush/jmessage-phonegap-plugin)，强
 
-#### 
+#### websocket插件
 
 [cordova-plugin-websocket-server](https://www.npmjs.com/package/cordova-plugin-websocket-server)
 
@@ -58,13 +61,15 @@ Cordova提供了一组设备相关的API，通过这组API，移动应用能够�
 由于有the Great Fire Wall的存在，而国内phonegap相关支持非常薄弱，所以有时不得不自己去做插件才能满足需求。
 ```
 
-[官方说明](http://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html)
+[官方制作说明](http://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html)
 
 ```
 这部分是个大工程，我们一步一步来。
 ```
 
 #### plugin.xml
+
+[官网详解plugin.xml](http://cordova.apache.org/docs/en/latest/plugin_ref/spec.html)
 
 The plugin repository must feature a top-level plugin.xml manifest file.
 

@@ -222,3 +222,5 @@ $(document).ready(function(){
 $(function(){
               // 程序段           
 })
+
+$(document).ready(function(){})
