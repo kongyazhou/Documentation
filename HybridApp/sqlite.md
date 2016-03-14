@@ -4,7 +4,7 @@
 
 ## 安装插件
 
-	cordova plugin add Cordova-sqlite-storage
+	cordova plugin add cordova-sqlite-storage
 
 ## 使用方法
 
