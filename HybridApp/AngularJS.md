@@ -1,6 +1,10 @@
 # AngularJS
 
-Google
+Google推出的。
+
+```
+由ionic开始学习，也因ionic废弃。
+```
 
 ## MVC
 
@@ -83,3 +87,7 @@ expect
 to
 
 protractor专门angularjs测试工具
+
+[AngularJS 之 Factory vs Service vs Provider](http://www.oschina.net/translate/angularjs-factory-vs-service-vs-provider)
+
+[上文的英文版](http://blog.csdn.net/lglgsy456/article/details/36902179)
