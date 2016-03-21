@@ -4,11 +4,36 @@
 本文档写于2016年，文章针对python 3.5.1版本进行学习。
 ```
 
+[廖雪峰Python3教程](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
+
 比Java还要高级的语言
 
 为实现快速开发而设计的语言
 
 Python将作为后台开发和算法设计主要使用的语言
+
+## centOS服务器安装python3.4
+
+#### 下载和安装
+
+	tar xf Python-3.4.4.tgz -C /usr/local/src/ 
+	cd /usr/local/src/Python-3.4.4/ 
+	./configure --prefix=/usr/local/python3.4 
+	make && make install
+
+#### 添加 python3.4 命令到环境变量 
+
+添加 python3.4 到环境变量，编辑 ~/.bash_profile，将： 
+
+	PATH=$PATH:$HOME/bin 
+
+改为： 
+
+	PATH=$PATH:$HOME/bin:/usr/local/python3.4/bin 
+
+#### 创建快捷键
+
+ln -s /usr/local/python3.4/bin/python3.4 /usr/bin/python
 
 ## 内置的函数
 
@@ -135,6 +160,10 @@ print()
 #### flask
 
 #### tornado
+
+多进程通信
+
+如果一个进程收到一个SIGUSR1信号，然后执行信号绑定函数，第二个SIGUSR2信号又来了，第一个信号没有被处理完毕的话，第二个信号就会丢弃。
 
 
 

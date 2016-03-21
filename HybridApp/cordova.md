@@ -225,6 +225,74 @@ WebSQL
 
 Icons and Splash Screens
 
+## 打包和发布Android应用
+
+#### 代码压缩和混淆
+
+[Ionic App源码压缩和混淆【译】](http://ionichina.com/topic/54e9448f32f2c3c01929965b)
+
+Cordova Uglify
+
+#### apk签名
+
+[Ionic Android应用Release指南](https://segmentfault.com/a/1190000002617037)
+
+先了解两件事情:
+
+1. Keytool 是一个有效的安全钥匙和证书的管理工具.
+2. Android 要求所有的程序必须有签名，否则就不会安装该程序。
+
+生成签名命令
+
+注意:记得将alias_name改一下。
+
+```bash
+$ keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+```
+
+这过程中会问你一些问题:
+
+```bash
+Enter keystore password:
+Re-enter new password:
+What is your first and last name?
+  [Unknown]:  phodal
+What is the name of your organizational unit?
+  [Unknown]:  phodal
+What is the name of your organization?
+  [Unknown]:  phodal
+What is the name of your City or Locality?
+```
+
+#### 构建 Android应用
+
+1. 生成 release包
+
+```bash
+$ cordova build --release android
+```
+
+2. jarsigner是JDK中包含的用于JAR文件签名和验证的工具。
+
+```bash
+$jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore HelloWorld-release-unsigned.apk alias_name
+```
+
+注意: alias_name与上面所的应该是一致的
+
+3. 优化
+
+Zipalign是一个android平台上整理APK文件的工具，它首次被引入是在Android 1.6版本的SDK软件开发工具包中。它能够对打包的Android应用程序进行优化， 以使Android操作系统与应用程序之间的交互作用更有效率，这能够让应用程序和整个系统运行得更快
+
+```bash
+ $zipalign -v 4 HelloWorld-release-unsigned.apk HelloWorld.apk
+```
+
+注意: 正常情况下zipalign应该在你的android sdk 的Home目录的build-tools的某个版本的SDK下面。
+
+[Android APK 优化修改工具合集【15/05/22更新】](http://www.idaybreak.com/android-apk-tools.html)
+
+
 ## 参考资料
 
 - [Cordova百度词条](http://baike.baidu.com/link?url=Xn-bGwsdEccufFTY9TSxuk_vjOMS3hoxPYOz-mhG2d1b4VCzQNzw73SoeICtwfdG0TyUt5V2whQGHuhfbSjex_)
