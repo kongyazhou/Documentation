@@ -1,9 +1,14 @@
 # AngularJS
 
-Google推出的。
-
 ```
-由ionic开始学习，也因ionic废弃。
+看来phonegap开发UI还是得用ionic
+而ionic所用的AngularJS是Google推出的优秀框架
+值得好好学习~
+
+开发的过程中为了赶进度没有系统的学习
+等项目结束了把资料整理一下
+慕客网上的教程认真看一遍
+深入掌握AngularJS的原理
 ```
 
 ## MVC
@@ -35,12 +40,13 @@ ng-model定义变量
 
 ## 指令系统
 
+```javascript
 .directive("指令名，标签名",function(){
 	return{
-
+	
+	}
 }
-
-}
+```
 
 return的内容替换指令标签。
 
@@ -88,6 +94,17 @@ to
 
 protractor专门angularjs测试工具
 
+## 阅读资料
+
 [AngularJS 之 Factory vs Service vs Provider](http://www.oschina.net/translate/angularjs-factory-vs-service-vs-provider)
 
 [上文的英文版](http://blog.csdn.net/lglgsy456/article/details/36902179)
+
+
+[angularJS的controller之间如何正确的通信](http://www.tuicool.com/articles/InuMF3J)
+
+[angular.js 下如何动态插入删除dom节点](http://yijiebuyi.com/blog/7702aba213aec9de43b129b3d2f3b30c.html)
+
+[AngularJS开发人员最常犯的10个错误](http://blog.jobbole.com/78946/)
+
+[AngularJS WebSocket Service](http://www.51joben.com/archives/7302.html)
