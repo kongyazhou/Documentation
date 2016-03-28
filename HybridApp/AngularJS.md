@@ -107,4 +107,14 @@ protractor专门angularjs测试工具
 
 [AngularJS开发人员最常犯的10个错误](http://blog.jobbole.com/78946/)
 
-[AngularJS WebSocket Service](http://www.51joben.com/archives/7302.html)
+* **[AngularJS WebSocket Service](http://www.51joben.com/archives/7302.html)**
+
+[AngularJS中$on、$emit和$broadcast的使用](http://www.leikunsheng.com/?p=170)
+
+[$scope.$emit and .$broadcast AngularJS](http://chenpeng.info/html/2260)
+
+[angularjs的事件 $broadcast and $emit and $on](http://www.angularjs.cn/A08c)
+
+[JSON.parse()和JSON.stringify()](http://blog.csdn.net/wangxiaohu__/article/details/7254598)
+
+* **[WebSocket 是什么原理？为什么可以实现持久连接？](http://www.zhihu.com/question/20215561)**
