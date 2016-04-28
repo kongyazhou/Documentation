@@ -14,6 +14,8 @@ Wordpress是PHP建站重要模版工具
 
 ## Wordpress主题推荐
 
+[envato market](http://market.envato.com/)：主题，插件市场
+
 ```
 大力推荐XIU主题，这也是我选择的主题
 
@@ -26,15 +28,29 @@ Wordpress是PHP建站重要模版工具
 
 不过若是要在这下载源码，是要收费的。
 
+[提升WordPress 打开速度全面解决方案（Avada）](http://www.chinaz.com/web/2015/0107/378419.shtml)
+
+#### Avada
+
+```
+国外最流行的。
+```
+
+[源码下载](http://www.weidea.net/post/13186)
+
 #### XIU
 
-[源码下载](http://down.cnzz.cn/201410/28986936.shtml)
+Version:5.2
+
+[源码下载]百度网盘
 
 [在线预览](http://blog.weknow.cn/)
 
 [使用教程](http://www.thefox.cn/wordpress-alibaixiu.shtml)
 
 #### DUX
+
+Version:1.2
 
 [源码下载](http://www.toptheme.org/wp/bk/2777.html)
 
@@ -43,6 +59,10 @@ Wordpress是PHP建站重要模版工具
 [使用教程](http://themebetter.com/theme/dux)
 
 ## 插件推荐
+
+#### Useso take over Google
+
+将用国内的镜像代替google的script，加快访问速度。
 
 #### Visual Composer
 

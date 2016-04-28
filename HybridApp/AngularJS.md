@@ -94,6 +94,27 @@ to
 
 protractor专门angularjs测试工具
 
+
+## $digest和$apply
+
+[深入理解ANGULAR中的$APPLY()以及$DIGEST()](http://www.cnphp6.com/archives/64167)
+
+[]()
+
+[]()
+
+## $timeOut定时器
+
+[说说Angular中的$timeOut定时器](http://sentsin.com/web/486.html)
+
+## $location
+
+[AngularJS开发指南27：使用$location](http://www.angularjs.cn/A00M)
+
+## Directive
+
+[《AngularJS》5个实例详解Directive（指令）机制](http://damoqiongqiu.iteye.com/blog/1917971)
+
 ## 阅读资料
 
 [AngularJS 之 Factory vs Service vs Provider](http://www.oschina.net/translate/angularjs-factory-vs-service-vs-provider)
@@ -118,3 +139,11 @@ protractor专门angularjs测试工具
 [JSON.parse()和JSON.stringify()](http://blog.csdn.net/wangxiaohu__/article/details/7254598)
 
 * **[WebSocket 是什么原理？为什么可以实现持久连接？](http://www.zhihu.com/question/20215561)**
+
+
+[Python os._exit() sys.exit() exit()区别](http://blog.csdn.net/taohuaxinmu123/article/details/39669495)
+
+
+[学习 ui-router - 路由控制](http://bubkoo.com/2014/01/02/angular/ui-router/guide/url-routing/)
+
+
