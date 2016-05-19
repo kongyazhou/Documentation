@@ -72,7 +72,9 @@ $ hexo deploy
 
 [Maupassant](https://github.com/tufu9441/maupassant-hexo)：简洁的博客，感觉比上面的好些
 
-[Corporate](https://github.com/ptsteadman/hexo-theme-corporate)：相当酷，适合做企业网站
+[Corporate](https://github.com/ptsteadman/hexo-theme-corporate)：相当酷，大型专业主题，适合做大型企业网站
+
+[phantom](https://github.com/klugjo/hexo-theme-phantom)：漂亮的图片墙，可以考虑拿来做电影站
 
 ## Hexo插件
 
