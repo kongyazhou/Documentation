@@ -1,12 +1,9 @@
 # ionic
 
-ionic是一个用来开发混合手机应用的，开源的，免费的**代码库**。可以优化html、css和js的性能，构建高效的应用程序，而且还可以用于构建Sass和AngularJS的优化。ionic会是一个可以信赖的框架。
+ionic是一个用来开发混合手机应用的，开源的，免费的**代码库**。可以优化html、css和js的性能，构建高效的应用程序，而且还可以用于构建Sass和AngularJS的优化。ionic是一个值得信赖的框架。
 
-```
-由于AmazeUI学习周期太长，所以还是用ionic吧。
-```
 
-## ionic
+## ionicxiangguan相关ziliao
 
 - [ionic百度词条](http://baike.baidu.com/link?url=Ss8i3DrvH0y_pcOGJi-ujIeOQiDDwbhkWcfA_viM_CeR0rKWjGPjXPQHfPUMBm7hwR6lh_BpYClREajXma1hTq)
 - [《ionic开发实战》](http://blog.csdn.net/i348018533/article/details/47258449)
