@@ -40,9 +40,11 @@ JavaScript 很容易使用！你一定会喜欢它的！
 ## holderjs
 
 ## AngularJS
+
 前端JS框架
 
 ## RequireJS
+
 RequireJS在线项目地址：[Github](https://github.com/jrburke/requirejs/)
 RequireJS官方网站：[官网](http://requirejs.org/)
 

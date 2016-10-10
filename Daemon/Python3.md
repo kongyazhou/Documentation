@@ -1,7 +1,7 @@
 # Python
 
 ```
-本文档写于2016年，文章针对python 3.5.1版本进行学习。
+本文档写于2016年，文章针对python 3.4.4版本进行学习。
 ```
 
 [廖雪峰Python3教程](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
