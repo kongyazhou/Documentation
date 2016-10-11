@@ -1,87 +1,128 @@
 # 文档资料
 
 ```
-本文档最早是夏日影院开发文档资料库
+本文档最早是夏日影院的文档资料库
 随着开发的持续，资料越来越丰富
 已经不能仅仅把它当成项目设计资料库了
 于是决定把它建成公共资料库
-资料一直在持续更新和完善
+后来开始开发H5 App，资料一直在持续更新和完善
 ```
 
-## HTML5
+## 目录
 
-* [服务器](#服务器)
 * [HTML5](#HTML5)
-* [编解码](#编解码)
+* [服务器](#服务器)
+* [数据库](#数据库)
 * [Python](#Python)
+* [运营](#运营)
+* [浏览器](#浏览器)
+* [编解码](#编解码)
+* [项目管理](#项目管理)
 * [图像处理](#图像处理)
 * [正则表达式](#正则表达式)
-* [项目管理](#项目管理)
-* [浏览器](#浏览器)
-* [数据库](#数据库)
 
 ## HTML5
 
-- [Web前端基础]()
+- [H5 基础]()
  - [javascript]() 
  - [css]() 
  - [html]() 
  - [sass]()
  - [typescript]()
  - [es6]()
-- [Web前端开发]()
+- [H5 App开发]()
+ - [cordova]()
  - [ionic1]()
  - [ionic2]()
+- [H5 网站开发]()
  - [Hexo]()
+ - [react]()
+- [H5 桌面开发]()
+ - [electron]()
+ - [nw.js]()
+ - [ionic2]()
+- [H5 存储]()
+ - [cookie]()
  - [indexedDB]()
- - [*electron*]()
- - [*react*]()
-- [Web服务器端开发]()
- - [jello]()
+ - [webSQL]()
+ - [localStorage]()
+ - [sessionStorage]()
+ - [cacheStorage]()
+- [H5 服务器端框架]()
  - [websocketd]()
- - [mysql]()
-- [网站运营]()
- - [Linux基础]()
- - [SEO优化]()
- - [CDN]()
-- [*大数据分析*]()
- - [*算法*]()
-- [python]()
-- [数据库]()
-- [其他]()
+ - [jello]()
+ - [ssh]()
+ - [spring]()
 
 ## 服务器
 
+- [分布式]()
+ - [zookeeper]()
+- [linux]()
+ - [Linux基础]()
+ - [centOS6.5]()
+ - [centOS7]()
 - [大数据]()
- - [分布式]()
  - [hadoop]()
  - [spark]()
-- [linux]()
- - [contOS6.5]()
- - [centOS7]
 
+## 数据库
 
-## 说明
+- [数据库 基础]()
+- [mySQL]()
+- [redis]()
 
+## Python
 
-现将资料分为数据库、前端、后台程序、服务器、商业运营五个部分。
+- [Python 基础]()
+- [Python 数据分析]()
+ - [numpy]()
+ - [matplotlib]()
+ - [scipy]()
+- [Python 算法]()
 
-1. 数据库
-数据库资料，学习资料、网站数据库设计等。
-2. 前端
-前端学习资料。
-3. 后台程序
-后台程序资料。
-4. 服务器
-服务器部署、配置、比较等相关资料。
-5. 商业运营
-运营推广、等学习资料。
+## 运营
+
+- [网站运营]()
+ - [SEO优化]()
+ - [CDN]()
+- [App运营]()
+
+## 浏览器
+
+- [chromium]()
+- [webkit]()
+- [v8]()
+
+## 编解码
+
+- [加密算法]()
+ - [openssl]() 
+ - [rsa]()
+ - [sha]()
+ - [des]() 
+
+## 项目管理
+
+- [采购管理]()
+- [成本管理]()
+- [范围管理]()
+- [风险管理]()
+- [沟通管理]()
+- [人力资源管理]()
+- [时间管理]()
+- [整体管理]()
+- [质量管理]()
+
+## 图像处理
+
+## 正则表达式
 
 ## 参考资料
 
-  ```
-  语言、技术和数据格式
-  ```
+```
+语言、技术和数据格式
+```
 
 1. [HTML](http://www.w3school.com.cn/html/index.asp/)
 2. [JavaScript](http://www.w3school.com.cn/js/index.asp/)
@@ -93,9 +134,9 @@
 8. [CSS CSS3](http://www.w3school.com.cn/css/index.asp)
 9.  SASS
 
-  ```
-  其他参考资料
-  ```
+```
+其他参考资料
+```
 
 1. [SummerTheatreProject](https://github.com/ThassarianJohn/SummerTheatreProject)
 2. [SummerTheatreDeploy](https://github.com/ThassarianJohn/SummerTheatreDeploy)
@@ -111,12 +152,10 @@
 
 ## 推荐开发工具
 
-SublimeText3文本编辑器，[Package Control控件下载](https://packagecontrol.io/installation)。
+Sublime Text 3 文本编辑器，[Package Control下载](https://packagecontrol.io/installation)。
 
 Emmet前端开发工具，[常用快捷键](http://docs.emmet.io/cheat-sheet/)。
 
 Markdown文本格式[GFM](https://www.zybuluo.com/techird/note/46064)，GitHub Readme文档的格式，简单好用，推荐！
-
-本项目完成后，开始学习PHP建站，使用Wordpress快速搭建博客、论坛。主题暂定为大数据分析。
 
 未来还可以建法律文库等专业文档库。
