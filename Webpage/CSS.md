@@ -10,16 +10,19 @@ CSS （层叠样式表）是一种用来表现HTML（标准通用标记语言的
 目前最新版本为CSS3。
 
 ## 实例
+
+```
 #para1
 {
-text-align:center;
-color:red;
+    text-align:center;
+    color:red;
 }
 
 #para1	id="para1"  	
 .type1	class="type1"	
 p.atype	class="atype"的<p>标签
 (HTML标签)
+```
 
 ## Bootstrap
 [Bootstrap 教程](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)
@@ -60,8 +63,25 @@ bootstrap使用了四种栅格选项来形成栅格系统。
 这四种选项分别适合不同尺寸的屏幕设备。
 lg是large的缩写，md是mid的缩写，sm是small的缩写，xs是extremly small的缩写。
 
+## CSS3
 
+CSS3是CSS的最新版本，他引入了不少新特性，是的HTML元素更酷炫。
 
+#### animation
+
+div
+{
+transition: width 2s;
+-moz-transition: width 2s;	/* Firefox 4 */
+-webkit-transition: width 2s;	/* Safari 和 Chrome */
+-o-transition: width 2s;	/* Opera */
+}
+
+#### trasition
+
+可以在不适用js的情况下，为样式转变添加动画效果。
+
+## 参考资料
 
 [你所不知的 CSS ::before 和 ::after 伪元素用法](http://justcoding.iteye.com/blog/2032627)
 
