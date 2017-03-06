@@ -51,11 +51,15 @@ pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorfl
 
 * 确认安装
 
-1. 打开一个命令行
-2. 激活tensorflow环境：activate tensorflow
-3. 创建一个测试文件test.py
-4. 执行测试文件：python test.py
-5. 打印 'Hello, TensorFlow!'，测试通过
+  * 打开一个命令行
+
+  * 激活tensorflow环境：activate tensorflow
+
+  * 创建一个测试文件test.py
+
+  * 执行测试文件：python test.py
+
+  * 打印 'Hello, TensorFlow!'，测试通过
 
 ```py
 # test.py
@@ -65,8 +69,6 @@ hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
 print(sess.run(hello))
 ```
-
-
 
 
 
