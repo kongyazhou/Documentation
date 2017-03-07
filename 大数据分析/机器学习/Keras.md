@@ -6,9 +6,9 @@
 
 ## 安装
 
-- 安装[anaconda](/服务器端开发/机器学习/Anaconda.md)开发环境
+- 安装[anaconda](/大数据分析/机器学习/Anaconda.md)开发环境
 
-- 安装[tensorflow](/服务器端开发/机器学习/TensorFlow.md)环境
+- 安装[tensorflow](/大数据分析/机器学习/TensorFlow.md)环境
 
 ```cmd
 conda install -c conda-forge tensorflow
