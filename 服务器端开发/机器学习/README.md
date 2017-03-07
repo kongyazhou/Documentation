@@ -14,6 +14,13 @@
 
 在github上有许多机器学习的开源项目，本文将简要介绍一些常用的、易于上手的项目。
 
+- [caffe](https://github.com/BVLC/caffe)
+- [TensorFlow](https://github.com/tensorflow/tensorflow)
+- [XGBoost](https://github.com/dmlc/xgboost)
+- [torch](https://github.com/mattstauffer/Torch)
+- [Scikit-Learn](https://github.com/scikit-learn/scikit-learn)
+- [MXNet](https://github.com/dmlc/mxnet)
+
 对于部分重要的机器学习项目，将专门编写文章讲解和学习。
 
 ## 参考资料
