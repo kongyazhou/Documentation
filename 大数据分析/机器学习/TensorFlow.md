@@ -32,16 +32,22 @@ Python ：Anaconda4.1.1 python3.5.2
 * 创建tensorflow环境
 
 ```cmd
-conda create -n tensorflow python=3.5
+conda create -n tf python=3.5 anaconda
 ```
 
 * 激活tensorflow环境
 
 ```cmd
-activate tensorflow
+activate tf
 ```
 
-* 下载安装包
+* 安装tensorflow
+
+```cmd
+conda install -c conda-forge tensorflow
+```
+
+* 或者用pip安装
 
 ```cmd
 pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.0-cp35-cp35m-win_amd64.whl
@@ -49,11 +55,11 @@ pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorfl
 
 注意，此处的包路径，以及包名，应当根据具体情况填写。
 
-* 确认安装
+* 最后确认安装
 
   * 打开一个命令行
 
-  * 激活tensorflow环境：activate tensorflow
+  * 激活tf环境：activate tf
 
   * 创建一个测试文件test.py
 

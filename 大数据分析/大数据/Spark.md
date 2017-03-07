@@ -1,4 +1,4 @@
-# Hadoop
+# Spark
 
 原文地址:[知乎：与 Hadoop 对比，如何看待 Spark 技术？](https://pic4.zhimg.com/a3376a50926db253dbce2cbc3284d5a7_b.jpg)
 
