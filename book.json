@@ -4,6 +4,12 @@
         "-lunr",
         "-search",
         "search-plus",
-        "duoshuo,"
-    ]
+        "duoshuo"
+    ],
+    "pluginsConfig": {
+        "duoshuo": {
+            "short_name": "人工智能",
+            "theme": "default"
+        }
+    }
 }
