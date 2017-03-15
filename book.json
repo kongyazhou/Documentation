@@ -1,4 +1,9 @@
 {
     "title"    : "人工智能",
-    "plugins"  : ["-lunr", "-search", "search-plus"]
+    "plugins"  : [
+        "-lunr",
+        "-search",
+        "search-plus",
+        "duoshuo,"
+    ]
 }
