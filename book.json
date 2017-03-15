@@ -1,5 +1,6 @@
 {
     "title"    : "人工智能",
+    "language": "zh-hans",
     "plugins"  : [
         "-lunr",
         "-search",
