@@ -14,7 +14,7 @@
             "theme": "default"
         },
         "ad": {
-            "contentTop": "<img src='http://avatar.csdn.net/2/9/9/1_dj0379.jpg'>Ads at the top of the page</img>",
+            "contentTop": "<img src=''>Ads at the top of the page</img>",
             "contentBottom": "%3Cdiv%3EAds%20at%20the%20bottom%20of%20the%20page%3C/div%3E"
         }
     }
