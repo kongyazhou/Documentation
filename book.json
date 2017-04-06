@@ -14,7 +14,7 @@
             "theme": "default"
         },
         "ad": {
-            "contentTop": "<a href=\"/\"><img style=\"height: 11rem;width: 50rem\" src=\"http://test.civia.cn/ads/8356167c25bc7e6.jpg\"></a>",
+            "contentTop": "<a href=\"/\"><img style=\"width: 100%\" src=\"http://test.civia.cn/ads/8356167c25bc7e6.jpg\"></a>",
             "contentBottom": "%3Cdiv%3EAds%20at%20the%20bottom%20of%20the%20page%3C/div%3E"
         }
     }
