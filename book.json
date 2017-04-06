@@ -14,7 +14,15 @@
             "theme": "default"
         },
         "ad": {
-            "contentTop": "<img src=''>Ads at the top of the page</img>",
+            "contentTop": "<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
+            <!-- Gitbook-人工智能 -->
+            <ins class='adsbygoogle'
+                 style='display:inline-block;width:728px;height:90px'
+                 data-ad-client='ca-pub-5858541389919867'
+                 data-ad-slot='2462895830'></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>",
             "contentBottom": "%3Cdiv%3EAds%20at%20the%20bottom%20of%20the%20page%3C/div%3E"
         }
     }
