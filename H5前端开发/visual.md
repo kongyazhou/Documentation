@@ -13,4 +13,7 @@
 - [D3](https://d3js.org)
 - [D3 on Github](https://github.com/d3/d3)
 
+## 参考资料
+
 - 《[大数据时代的图表可视化利器——highcharts,D3和百度的echarts](http://blog.csdn.net/minidrupal/article/details/42153941)》
+- 《[向 Web 开发人员推荐35款 JavaScript 图形图表库](http://www.cnblogs.com/lhb25/p/35-javascript-chart-and-graph-libraries.html)》
