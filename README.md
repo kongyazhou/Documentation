@@ -8,12 +8,6 @@
 资料涉及面较广，将按紧急程度依次整理。
 ```
 
-
-较重要的资料，标为**粗体**，将优先整理。
-
-已完成的资料，标为*斜体*，供阅读学习。
-
-
 ## 目录
 
 * [H5前端开发](#H5前端开发)
@@ -21,87 +15,95 @@
 * [其他知识](#其他知识)
 * [项目运营](#项目运营)
 * [项目管理](#项目管理)
+* [算法](#算法)
 * [大数据分析](/大数据分析/机器学习/README.md)
 
 ## H5前端开发
 
 #### H5基础
 
- - [HTML]()
- - [JavaScript]() 
- - [TypeScript]()
- - [CSS]() 
- - [SASS]()
- - [PHP]()
+- [HTML]()
+- [JavaScript]() 
+- [TypeScript]()
+- [CSS]() 
+- [SASS]()
+- [PHP]()
 
 #### H5存储
 
- - [cookie]()
- - [indexedDB]()
- - [webSQL]()
- - [localStorage]()
- - [sessionStorage]()
- - [cacheStorage]()
+- [cookie]()
+- [indexedDB]()
+- [webSQL]()
+- [localStorage]()
+- [sessionStorage]()
+- [cacheStorage]()
 
 #### H5通信
 
- - [websocket]()
- - [AJAX]()
+- [websocket]()
+- [AJAX]()
 
 #### H5图像
 
- - [canvas]()
- - [three.js3D引擎]()
- - [egret游戏引擎]()
+- [canvas]()
+- [three.js3D引擎]()
+- [egret游戏引擎]()
 
 #### H5移动开发
 
- - [cordova]()
- - [ionic1]()
- - [ionic2]()
- - [react-Native]()
+- [cordova]()
+- [ionic1]()
+- [ionic2]()
+- [react-Native]()
 
 #### H5网站开发
 
- - [AngularJS1]()
- - [AngularJS2]()
- - [Hexo]()
- - [react]()
- - [jello]()
+- [AngularJS1]()
+- [AngularJS2]()
+- [Hexo]()
+- [react]()
+- [jello]()
 
 #### H5桌面开发
 
- - [electron]()
- - [nw.js]()
+- [electron]()
+- [nw.js]()
 
 #### 工程化工具
 
 - [npm]()
 - [bower]()
 - [gulp]()
+- [yarn]()
+- [pnpm]()
 
 ## 服务器端开发
 
+#### 基础
+
+- [python]()
+- [cython]()
+
 #### Linux
 
- - [Linux基础]()
- - [centOS6.5]()
- - [centOS7]()
+- [Linux基础]()
+- [centOS6.5]()
+- [centOS7]()
 
 #### 服务器架构
 
- - [分布式架构]()
- - [CDN内容分发]()
- - [对象存储]()
+- [分布式架构]()
+- [CDN内容分发]()
+- [对象存储]()
 
 #### 服务器端框架
 
- - [websocketd]()
- - [node.js]()
- - [Apache]()
- - [tomcat]()
- - [ssh]()
- - [spring]()
+- [websocketd]()
+- [node.js]()
+- [Apache]()
+- [tomcat]()
+- [ssh]()
+- [spring]()
 
 #### 数据库
  
@@ -111,13 +113,11 @@
 
 #### 数据分析
 
-- [Python3 基础]()
-- [Anaconda数据分析]()
- - [numpy]()
- - [matplotlib]()
- - [scipy]()
-- [基础算法]()
-- [人工智能→机器学习→深度学习]()
+- [Anaconda]()
+- [numpy]()
+- [matplotlib]()
+- [scipy]()
+- [人工智能]()
 
 #### 大数据
 
